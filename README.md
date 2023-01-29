@@ -1,2 +1,1 @@
-# CurriculumVitae
-Hypermedia Project part 1
+(docs/CuVi.html)
