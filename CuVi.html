@@ -5,7 +5,6 @@
         <title>Curriculum Vitae</title>
         <link rel="stylesheet" type="text/css" href="CuVi.css">
         <meta name="author" content="Jordi Romero">
-        <script src="CuVi.js"></script>
     </head>
     <body>
         <header>
@@ -44,7 +43,8 @@
                 detailing a meeting place and a payment.
             </p>
         </nav>
-        <div class="Bio">
+        <div class="Content">
+            <div class="Bio">
             <img src="Defaultpfp.png" alt="Defaultpfp">
             <p></p>
             <p><b>Name:</b> John Doe</p>
@@ -102,17 +102,30 @@
             </ul>
         </div>
         <div class="Images">
-            <img src="blurred1.jpg" alt="blurred1">
-            <div class="Image2"><img src="blurred2.jpg" alt="blurred2"></div>
-            <img src="blurred3.jpg" alt="blurred3">
+            <table>
+                <tr>
+                <th>
+                    <img src="blurred1.jpg" alt="blurred1">
+                </th>
+                <th></th>
+                <th>
+                     <img src="blurred3.jpg" alt="blurred3">
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>
+                    <img src="blurred2.jpg" alt="blurred2"></div>
+                </th>
+            </tr>
+            </table>
+        </div>
         </div>
         <div class="Disclaimer">
-            <footer><p>*this website is fake</p></footer>
+            <p>*this website is fake</p>
         </div>
-        <div class="Contract">
-            <footer>
-               <p>Seal the contract <button>Contract</button></p>
-            </footer>
-        </div>
+        <footer>
+           <p>Seal the contract <button>Contract</button></p>
+        </footer>
     </body>
 </html>
